@@ -1,0 +1,107 @@
+body{
+  margin: 0;
+  background-color: #e3dfd5;
+}
+.header{
+  background-color: #305673;
+  width: 100%;
+  height: 100px;
+}
+.main-ad{
+  width: 100%;
+  height: 165px;
+  background-image: url('Images/Shoes.png');
+  background-size: cover;
+  position: relative;
+}
+.cart{
+  background-image: url("Images/Shoppingcart.png");
+  background-size:contain;
+  width: 34px;
+  height: 30px;
+  background-repeat: no-repeat;
+  float: right;
+  transform: translateY(13px) translateX(-90px);
+}
+.user{
+  background-image: url("Images/user.png");
+  background-size:contain;
+  width: 28px;
+  height: 30px;
+  background-repeat: no-repeat;
+  float: right;
+  transform: translateY(13px) translateX(-10px);
+}
+.title{
+  margin: 0;
+  transform: translateY(20px);
+  color:white;
+  text-align: center;
+}
+.products{
+  margin: 0;
+  color:white;
+  float: left;
+  margin-left: 40px;
+  transform: translateY(35px);
+}
+.menu{
+  margin: 0;
+  color:white;
+  float: left;
+  margin-left: 20px;
+  transform: translateY(35px);
+}
+.body{
+  width: 100%;
+  height: 995px;
+  background-color: #e3dfd5;
+}
+.footer{
+  width: 100%;
+  background-color: #305673;
+  height: 140px;
+}
+.search-container{
+  text-align: center;
+  background-color: #305673;
+  width: 100%;
+  height: 100px;
+}
+.search-button{
+  background-color: #e4b833;
+  width:55px;
+  height: 44px;
+  float: left;
+  margin-left: 5px;
+  position: relative;
+}
+.search-container form{
+  width: 470px;
+  height: 40px;
+  margin: 0 auto;
+  transform: translateY(25px);
+}
+.search{
+  padding: 8px;
+  height: 60%;
+}
+input {
+  float: left;
+  position: relative;
+  width: 400px;
+  height:40px;
+  font-size: 1.5em;
+  font-family: "Arial", sans-serif;
+}
+input[type="text"] {
+  color: #4c4c4c;
+}
+.features{
+  font-family: helvetica;
+  font-size: 31px;
+  font-weight: lighter;
+  color: #305673;
+  margin-left: 40px;
+  margin-top: 36px;
+}
