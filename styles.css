@@ -44,6 +44,7 @@ body{
   float: left;
   margin-left: 40px;
   transform: translateY(35px);
+  font-weight: lighter;
 }
 .menu{
   margin: 0;
@@ -51,6 +52,7 @@ body{
   float: left;
   margin-left: 20px;
   transform: translateY(35px);
+  font-weight: lighter;
 }
 .body{
   width: 100%;
@@ -60,13 +62,19 @@ body{
 .footer{
   width: 100%;
   background-color: #305673;
-  height: 140px;
+  height: 145px;
 }
 .search-container{
   text-align: center;
   background-color: #305673;
   width: 100%;
   height: 100px;
+}
+.search-container form{
+  width: 470px;
+  height: 40px;
+  margin: 0 auto;
+  transform: translateY(25px);
 }
 .search-button{
   background-color: #e4b833;
@@ -76,12 +84,7 @@ body{
   margin-left: 5px;
   position: relative;
 }
-.search-container form{
-  width: 470px;
-  height: 40px;
-  margin: 0 auto;
-  transform: translateY(25px);
-}
+
 .search{
   padding: 8px;
   height: 60%;
@@ -91,7 +94,7 @@ input {
   position: relative;
   width: 400px;
   height:40px;
-  font-size: 1.5em;
+  font-size: 18px;
   font-family: "Arial", sans-serif;
 }
 input[type="text"] {
@@ -104,4 +107,91 @@ input[type="text"] {
   color: #305673;
   margin-left: 40px;
   margin-top: 36px;
+}
+.categories{
+  width: 92%;
+  height: 550px;
+  margin: 30px auto;
+}
+.stuff {
+  float: left;
+  width: 48%;
+  height: 45%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+.stuff2 {
+  float: left;
+  width: 48%;
+  height: 45%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+.large{
+  object-fit: cover;
+  height:100%;
+  width: 70%;
+  float: left;
+}
+.small{
+  float: left;
+  height: 50%;
+  width: 30%;
+  object-fit: cover;
+}
+.lable{
+  position: relative;
+  top: 70px;
+  left: 0;
+  height: 50px;
+  width: 230px;
+  background-color: rgba(48, 86, 115, 0.5);
+}
+.words{
+  color: white;
+  font-weight: lighter;
+  font-family: helvetica;
+  margin: 0;
+  position: relative;
+  left: 10px;
+  top: 15px;
+}
+.daily{
+  color: #305673;
+  font-weight: lighter;
+  font-family: helvetica;
+  margin-left: 40px;
+  margin-top: 60px;
+}
+.deals{
+  width: 92%;
+  height: 140px;
+  margin: 55px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.dailydeals{
+  float: left;
+}
+
+.name{
+  color: white;
+  font-weight: lighter;
+  transform: translateX(40px);
+  position: absolute;
+}
+.fmenu{
+  color: white;
+  list-style-type: none;
+  transform: translateY(45px);
+  font-size: 16px;
+  position: absolute;
+}
+.copyright{
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  position: relative;
+  transform: translateY(120px);
+  margin: 0;
 }

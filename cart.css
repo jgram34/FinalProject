@@ -1,0 +1,141 @@
+body{
+  margin: 0;
+  background-color: #e3dfd5;
+}
+.header{
+  background-color: #305673;
+  width: 100%;
+  height: 130px;
+}
+.title{
+  margin: 0;
+  transform: translateY(20px);
+  color:white;
+  text-align: center;
+  font-weight: lighter;
+}
+.products{
+  margin: 0;
+  color:white;
+  float: left;
+  margin-left: 40px;
+  transform: translateY(60px);
+  font-weight: lighter;
+}
+.menu{
+  margin: 0;
+  color:white;
+  float: left;
+  margin-left: 20px;
+  transform: translateY(60px);
+  font-weight: lighter;
+}
+.cart{
+  background-image: url("Images/Shoppingcart.png");
+  background-size:contain;
+  width: 34px;
+  height: 30px;
+  background-repeat: no-repeat;
+  float: right;
+  transform: translateY(13px) translateX(-90px);
+}
+.user{
+  background-image: url("Images/user.png");
+  background-size:contain;
+  width: 28px;
+  height: 30px;
+  background-repeat: no-repeat;
+  float: right;
+  transform: translateY(13px) translateX(-10px);
+}
+.search-button{
+  background-color: #e4b833;
+  width:55px;
+  height: 40px;
+  float: right;
+  position: relative;
+  transform: translateY(45px);
+}
+.search-container{
+  width: 465px;
+  height: 40px;
+  float: right;
+  transform: translateX(20px);
+}
+.search{
+  padding: 9px;
+  height: 60%;
+transform: translateX(5px);
+}
+input {
+  float: left;
+  position: relative;
+  width: 400px;
+  height:35px;
+  font-size: 18px;
+  font-family: "Arial", sans-serif;
+  transform: translateY(45px);
+}
+input[type="text"] {
+  color: #4c4c4c;
+}
+.features{
+  font-family: helvetica;
+  font-weight: lighter;
+  color: #4c4c4c;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.checkout{
+  font-family: helvetica;
+  font-weight: lighter;
+  color: #305673;
+  margin-left: 36px;
+  margin-top: 50px;
+}
+.process{
+  font-family: helvetica;
+  color: #4c4c4c;
+  margin-left: 40px;
+  font-weight: lighter;
+  margin-top: -10px;
+}
+.process2{
+  font-family: helvetica;
+  color: #4c4c4c;
+  margin-left: 40px;
+  font-weight: lighter;
+  margin-top: 210px;
+}
+
+.body{
+  width: 100%;
+  height: 860px;
+  background-color: #e3dfd5;
+}
+.footer{
+  width: 100%;
+  background-color: #305673;
+  height: 510px;
+}
+.name{
+  color: white;
+  font-weight: lighter;
+  transform: translateX(40px);
+  position: absolute;
+}
+.fmenu{
+  color: white;
+  list-style-type: none;
+  transform: translateY(45px);
+  font-size: 16px;
+  position: absolute;
+}
+.copyright{
+  color: white;
+  text-align: center;
+  font-weight: lighter;
+  position: relative;
+  transform: translateY(120px);
+  margin: 0;
+}
