@@ -169,9 +169,13 @@ input[type="text"] {
   margin: 55px auto;
   display: flex;
   justify-content: space-between;
+
 }
 .dailydeals{
+  width: 16%;
   float: left;
+  height: 100%;
+  object-fit: cover;
 }
 
 .name{
