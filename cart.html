@@ -24,8 +24,83 @@
       <h5 class="features">Products > Electronics > iPhone 7</h5>
       <h1 class="checkout">Checkout</h1>
       <h3 class="process"> 1. Enter Shipping Information</h3>
+      <div class="container">
+          <form class="shippingform">
+           <input type="text" name="name" placeholder="First Name">
+           <input type="text" name="name" placeholder="Last Name"> <br>
+           <input class="longinput" type="text" name="name" placeholder="Street Address"> <br>
+           <input class="longinput" type="text" name="name" placeholder="City/State/Zip">
+         </form>
+       </div>
       <h3 class="process2"> 2. Payment Method</h3>
+      <div class="container">
+        <form class="paymentcard">
+          <input type="radio" name="creditcard">
+            <img src="images/american-express.png"/>
+            <img src="images/mastercard.png"/>
+            <img src="images/visa.png"/>
+            <img src="images/chase.png"/>
+          <input type="radio" name="creditcard">
+            <img class="cards" src="images/paypal.png"/>
+          <input class="cardholder" type="text" name="name" placeholder="Name as it appears on card"> <br>
+          <input class="cardholder2" type="text" name="name" placeholder="Card Number">
+          <input class="shortinput" type="text" name="name" placeholder="CV Code"> <br>
+          <div class="clearfix"></div>
+          <label>Card Expiration</label>
+          <select class="Months" name="Months">
+            <option selected="selected">Month</option>
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+          </select>
+          <select class="Years" name="Years">
+            <option selected="selected">Year</option>
+            <option value="2025">2025</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+          </select>
+        </form>
+      </div>
       <h3 class="process2"> 3. Review Items</h3>
+      <div class="product">
+        <img src="Images/iphone-7-06.png" width="160px" height="138px"/>
+        <p>
+          iPhone 7<br>
+          Manufacturer: Apple
+        </p>
+
+        <form class="quantityform">
+          <label for="Quantity">Quantity:</label>
+          <select class="Quantity" name="Quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </form>
+
+      </div>
     </div>
     <div class="footer">
       <h2 class="name">SHMAMAZON</h2>

@@ -80,18 +80,172 @@ input {
 input[type="text"] {
   color: #4c4c4c;
 }
-.features{
+div.bodycontainer {
+  width: 100%;
+  height: 804px;
+}
+
+div.miniheader h4 {
   font-family: helvetica;
   font-weight: lighter;
-  color: #4c4c4c;
+  font-size: 15px;
   margin-left: 40px;
+  margin-top: 35px;
+  color: #000000;
+}
+
+div.smallimages {
+  height: 205px;
+  width: 60px;
+  margin-left: 40px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+div.smallimages img {
+  padding-bottom: 20px;
+}
+
+div.largeimage {
+  height: 300px;
+  width: 300px;
+  margin-left: 20px;
+  padding-bottom: 20px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+div.productdetails {
+  width: 300px;
+  margin-left: 120px;
+  padding-bottom: 20px;
+  float: left;
   margin-top: 20px;
 }
 
-.body{
+div.productdetails h1 {
   width: 100%;
-  height: 860px;
-  background-color: #e3dfd5;
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 31px;
+  margin-top: 0;
+  color: #305673;
+}
+
+div.productdetails img {
+  padding-right: 12px;
+}
+
+ul.details {
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 17px;
+  margin-left: -22px;
+}
+
+div.cartcontainer {
+  height: 380px;
+  float: right;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.addbutton {
+    width: 214px;
+    height: 45px;
+    background-color: #e4b833;
+    border: none;
+    font-family: helvetica;
+    font-weight: lighter;
+    font-size: 22px;
+    color: #000000;
+}
+
+div.total {
+  height: 30px;
+  margin-top: 20px;
+}
+
+p.price {
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 22px;
+  margin: 0px;
+  margin-bottom: 15px;
+  margin-right: 78px;
+  float: left;
+  text-align: left;
+}
+
+p.totalprice {
+  font-family: helvetica;
+  font-size: 22px;
+  color: #22881d;
+  margin: 0px;
+}
+
+div.productstatus {
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+p.status {
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 22px;
+  margin: 0px;
+  margin-bottom: 15px;
+  margin-right: 78px;
+  float: left;
+  text-align: left;
+}
+
+p.stock {
+  font-family: helvetica;
+  font-size: 22px;
+  color: #22881d;
+  margin: 0px;
+  margin-left: -11px;
+  float: left;
+}
+
+div.protectionplan {
+  margin-bottom: 20px;
+}
+
+div.delivery {
+  width: 125px;
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-right: 88px
+}
+
+div.moreitems {
+  float: left;
+}
+
+div.moreitems h1 {
+  width: 100%;
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 31px;
+  margin-left: 40px;
+  margin-top: 0;
+  color: #305673;
+}
+
+div.deals {
+  width: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+div.deals img {
+  padding-right: 20px;
 }
 .footer{
   width: 100%;
