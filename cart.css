@@ -13,6 +13,7 @@ body{
   color:white;
   text-align: center;
   font-weight: lighter;
+  text-decoration: none;
 }
 .products{
   margin: 0;
@@ -173,12 +174,13 @@ select {
   font-size: 18px;
   text-indent: 15px;
   color: #c0c0bf;
-  background-image: url("../Images/dropdown.png");
+  background-image: url("Images/dropdown.png");
   background-position: 92px 14px;
   background-repeat: no-repeat;
 }
 
-select.Months {
+
+select.Months{
   margin-left: 56px;
 }
 
@@ -196,20 +198,18 @@ p {
   font-weight: lighter;
   font-size: 18px;
   color: #000000;
-  float: left;
-  margin-left: 30px;
 }
 .product img{
   float: left;
+  margin-right: 80px;
+  transform: translateX(40px);
 }
 .quantityform {
-  float: left;
-  margin-right: 200px;
-  margin-left: 30px;
+  display: inline;
 }
 .clearfix {
   clear: both;
-
+  margin-bottom: 40px;
 }
 .cardholder{
   transform: translateY(20px);
@@ -228,10 +228,104 @@ select.Quantity {
   margin-right: 80px;
 }
 .body{
-  width: 100%;
+  width: 700px;
   background-color: #e3dfd5;
-  display: block;
+  display: inline-block;
   overflow: hidden;
+}
+
+div.right {
+  width: 214px;
+  display: inline-block;
+  position: absolute;
+  margin-top: 40px;
+}
+
+.placeorder h2 {
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 22px;
+  margin-top: 12px;
+  color: #000000;
+}
+
+.orderbutton {
+    width: 214px;
+    height: 45px;
+    background-color: #e4b833;
+    border: none;
+    font-family: helvetica;
+    font-weight: lighter;
+    font-size: 22px;
+    color: #000000;
+}
+
+p.order {
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 12px;
+  margin-top: 12px;
+  margin-right: 0px;
+}
+
+div.cart2 {
+ height: 60px;
+}
+
+div.cart2 hr {
+  width: 214px;
+}
+
+p.items {
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 12px;
+  margin: 0px;
+  margin-bottom: 15px;
+  float: left;
+  text-align: left;
+}
+
+p.prices {
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 12px;
+  padding-left: 52px;
+  margin: 0px;
+  margin-bottom: 15px;
+  float: left;
+  text-align: right;
+}
+
+div.total {
+  height: 30px;
+}
+
+p.total {
+  font-family: helvetica;
+  font-size: 22px;
+  margin: 0px;
+  margin-bottom: 15px;
+  float: left;
+  text-align: left;
+}
+
+p.totalprice {
+  font-family: helvetica;
+  font-size: 22px;
+  color: #ac2d24;
+  margin: 0px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+p.delivery {
+  width: 125px;
+  font-family: helvetica;
+  font-weight: lighter;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-right: 88px
 }
 .footer{
   width: 100%;

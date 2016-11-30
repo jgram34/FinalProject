@@ -37,6 +37,8 @@ body{
   transform: translateY(20px);
   color:white;
   text-align: center;
+  font-weight: lighter;
+  text-decoration: none;
 }
 .products{
   margin: 0;
