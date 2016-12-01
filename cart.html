@@ -31,16 +31,16 @@
       <h1 class="checkout">Checkout</h1>
       <h3 class="process"> 1. Enter Shipping Information</h3>
       <div class="container">
-          <form class="shippingform">
+          <form class="shipping">
            <input type="text" name="name" placeholder="First Name">
            <input type="text" name="name" placeholder="Last Name"> <br>
-           <input class="longinput" type="text" name="name" placeholder="Street Address"> <br>
-           <input class="longinput" type="text" name="name" placeholder="City/State/Zip">
+           <input class="long" type="text" name="name" placeholder="Street Address"> <br>
+           <input class="long" type="text" name="name" placeholder="City/State/Zip">
          </form>
        </div>
       <h3 class="process2"> 2. Payment Method</h3>
       <div class="container">
-        <form class="paymentcard">
+        <form class="payment">
           <input type="radio" name="creditcard">
             <img src="Images/american-express.png"/>
             <img src="Images/mastercard.png"/>
@@ -50,10 +50,10 @@
             <img class="cards" src="Images/paypal.png"/>
           <input class="cardholder" type="text" name="name" placeholder="Name as it appears on card"> <br>
           <input class="cardholder2" type="text" name="name" placeholder="Card Number">
-          <input class="shortinput" type="text" name="name" placeholder="CV Code"> <br>
+          <input class="short" type="text" name="name" placeholder="CV Code"> <br>
           <div class="clearfix"></div>
           <label>Card Expiration</label>
-          <select class="Months" name="Months">
+          <select class="months" name="Months">
             <option selected="selected">Month</option>
             <option value="1">January</option>
             <option value="2">February</option>
@@ -68,7 +68,7 @@
             <option value="11">November</option>
             <option value="12">December</option>
           </select>
-          <select class="Years" name="Years">
+          <select class="years" name="Years">
             <option selected="selected">Year</option>
             <option value="2025">2025</option>
             <option value="2024">2024</option>
@@ -90,7 +90,7 @@
           Manufacturer: Apple
         </p>
 
-        <form class="quantityform">
+        <form class="process3">
           <label for="Quantity">Quantity:</label>
           <select class="Quantity" name="Quantity">
             <option value="1">1</option>
@@ -109,7 +109,7 @@
     </div>
     <div class="right">
       <div class="placeorder">
-        <button class="orderbutton">Place Order</button>
+        <button class="button">Place Order</button>
         <p class="order">
           By placing your order, you agree to Amazon's privacy notice and conditions of use.
         </p>

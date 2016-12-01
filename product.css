@@ -82,12 +82,11 @@ input {
 input[type="text"] {
   color: #4c4c4c;
 }
-div.bodycontainer {
+.bodycontainer {
   width: 100%;
   height: 804px;
 }
-
-div.miniheader h4 {
+.categories h4 {
   font-family: helvetica;
   font-weight: lighter;
   font-size: 15px;
@@ -95,8 +94,7 @@ div.miniheader h4 {
   margin-top: 35px;
   color: #000000;
 }
-
-div.smallimages {
+.smallimages {
   height: 205px;
   width: 60px;
   margin-left: 40px;
@@ -104,12 +102,10 @@ div.smallimages {
   margin-top: 20px;
   margin-right: 10px;
 }
-
-div.smallimages img {
+.smallimages img {
   padding-bottom: 20px;
 }
-
-div.largeimage {
+.large {
   height: 300px;
   width: 300px;
   margin-left: 20px;
@@ -118,16 +114,14 @@ div.largeimage {
   margin-top: 20px;
   margin-right: 10px;
 }
-
-div.productdetails {
+.info {
   width: 300px;
   margin-left: 120px;
   padding-bottom: 20px;
   float: left;
   margin-top: 20px;
 }
-
-div.productdetails h1 {
+.info h1 {
   width: 100%;
   font-family: helvetica;
   font-weight: lighter;
@@ -135,26 +129,22 @@ div.productdetails h1 {
   margin-top: 0;
   color: #305673;
 }
-
-div.productdetails img {
+.info img {
   padding-right: 12px;
 }
-
-ul.details {
+.details {
   font-family: helvetica;
   font-weight: lighter;
   font-size: 17px;
   margin-left: -22px;
 }
-
-div.cartcontainer {
+.container {
   height: 380px;
   float: right;
   margin-top: 20px;
   margin-right: 40px;
 }
-
-.addbutton {
+.add {
     width: 214px;
     height: 45px;
     background-color: #e4b833;
@@ -164,13 +154,11 @@ div.cartcontainer {
     font-size: 22px;
     color: #000000;
 }
-
-div.total {
+.total {
   height: 30px;
   margin-top: 20px;
 }
-
-p.price {
+.price {
   font-family: helvetica;
   font-weight: lighter;
   font-size: 22px;
@@ -180,20 +168,17 @@ p.price {
   float: left;
   text-align: left;
 }
-
-p.totalprice {
+.totalprice {
   font-family: helvetica;
   font-size: 22px;
   color: #22881d;
   margin: 0px;
 }
-
-div.productstatus {
+.total2 {
   height: 30px;
   margin-bottom: 20px;
 }
-
-p.status {
+.status {
   font-family: helvetica;
   font-weight: lighter;
   font-size: 22px;
@@ -203,8 +188,7 @@ p.status {
   float: left;
   text-align: left;
 }
-
-p.stock {
+.stock {
   font-family: helvetica;
   font-size: 22px;
   color: #22881d;
@@ -212,12 +196,10 @@ p.stock {
   margin-left: -11px;
   float: left;
 }
-
-div.protectionplan {
+.plan {
   margin-bottom: 20px;
 }
-
-div.delivery {
+.delivery {
   width: 125px;
   font-family: helvetica;
   font-weight: lighter;
@@ -225,12 +207,11 @@ div.delivery {
   margin-top: 0px;
   margin-right: 88px
 }
-
-div.moreitems {
+.related {
   float: left;
+  margin-top: 40px;
 }
-
-div.moreitems h1 {
+.related h1 {
   width: 100%;
   font-family: helvetica;
   font-weight: lighter;
@@ -239,14 +220,13 @@ div.moreitems h1 {
   margin-top: 0;
   color: #305673;
 }
-
-div.deals {
+.deals {
+  margin-top: 60px;
   width: 100%;
   margin-left: 40px;
   margin-right: 40px;
 }
-
-div.deals img {
+.deals img {
   padding-right: 20px;
 }
 .footer{

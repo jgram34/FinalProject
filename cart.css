@@ -116,7 +116,7 @@ input[type="text"] {
 }
 
 
-.shippingform input[type=text] {
+.shipping input[type=text] {
     width: 220px;
     height: 38px;
     font-family: helvetica;
@@ -128,17 +128,17 @@ input[type="text"] {
     margin-bottom: 20px;
 }
 
-.shippingform input[type=text].longinput {
+.shipping input[type=text].long {
   width: 460px ;
 }
 div.PaymentForm {
   margin-left: 40px;
 
 }
-.paymentcard input[type=radio] {
+.payment input[type=radio] {
   margin-bottom: 15px;
 }
-.paymentcard img {
+.payment img {
   margin-left: 25px;
   transform: translateY(15px);
 }
@@ -180,15 +180,15 @@ select {
 }
 
 
-select.Months{
+.months{
   margin-left: 56px;
 }
 
-select.Years {
+.years {
   margin-left: 16px;
 }
 
-div.product {
+.product {
   height: 200px;
   margin-left: 81px;
 }
@@ -204,7 +204,7 @@ p {
   margin-right: 80px;
   transform: translateX(40px);
 }
-.quantityform {
+.quantity {
   display: inline;
 }
 .clearfix {
@@ -219,11 +219,11 @@ p {
   transform: translateY(25px);
   width: 300px;
 }
-.shortinput{
+.short{
   transform: translateY(25px);
   width: 100px;
 }
-select.Quantity {
+.Quantity {
   margin-left: 28px;
   margin-right: 80px;
 }
@@ -234,7 +234,7 @@ select.Quantity {
   overflow: hidden;
 }
 
-div.right {
+.right {
   width: 214px;
   display: inline-block;
   position: absolute;
@@ -249,7 +249,7 @@ div.right {
   color: #000000;
 }
 
-.orderbutton {
+.button {
     width: 214px;
     height: 45px;
     background-color: #e4b833;
@@ -260,23 +260,22 @@ div.right {
     color: #000000;
 }
 
-p.order {
+.order {
   font-family: helvetica;
   font-weight: lighter;
   font-size: 12px;
   margin-top: 12px;
   margin-right: 0px;
 }
-
-div.cart2 {
+.cart2 {
  height: 60px;
 }
 
-div.cart2 hr {
+.cart2 hr {
   width: 214px;
 }
 
-p.items {
+.items {
   font-family: helvetica;
   font-weight: lighter;
   font-size: 12px;
@@ -286,7 +285,7 @@ p.items {
   text-align: left;
 }
 
-p.prices {
+.prices {
   font-family: helvetica;
   font-weight: lighter;
   font-size: 12px;
@@ -297,11 +296,11 @@ p.prices {
   text-align: right;
 }
 
-div.total {
+.total {
   height: 30px;
 }
 
-p.total {
+.total p{
   font-family: helvetica;
   font-size: 22px;
   margin: 0px;
@@ -310,16 +309,17 @@ p.total {
   text-align: left;
 }
 
-p.totalprice {
+ .totalprice  {
   font-family: helvetica;
   font-size: 22px;
   color: #ac2d24;
   margin: 0px;
+  margin-left: 40px;
   margin-bottom: 15px;
   text-align: left;
 }
 
-p.delivery {
+.delivery {
   width: 125px;
   font-family: helvetica;
   font-weight: lighter;
